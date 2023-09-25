@@ -1,4 +1,4 @@
-from selectionsortstrings import *
+from selectionsort import *
 
 def main():
     # set up local variables to store list and first
@@ -6,7 +6,7 @@ def main():
     first = 0
 
     # prompt the user to input the list values
-    data = list(map(str, input("Enter 10 numbers seperated by a space: ").split()))
+    data = list(map(int, input("Enter 10 numbers seperated by a space: ").split()))
 
     # prompt the user to input first
     first = int(input("Enter the index at which the sort will begin: "))
